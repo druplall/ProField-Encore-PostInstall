@@ -7,12 +7,12 @@
   DTS:CreatorName="CONED\ruplalld"
   DTS:DTSID="{4DBC727E-3A43-4984-B63B-C5FF6D92A850}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="12.0.4100.1"
+  DTS:LastModifiedProductVersion="13.0.2165.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_load_934_Auto_Sync"
   DTS:PackageType="5"
-  DTS:VersionBuild="64"
-  DTS:VersionGUID="{69AB8831-527A-4667-903A-C04815D29465}">
+  DTS:VersionBuild="65"
+  DTS:VersionGUID="{73B12A3A-CF46-4F9E-AFC7-51D41EA207EF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3970,7 +3970,7 @@
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -5502,6 +5502,7 @@ ELSE
           DTS:refId="Package\Foreach Loop Container\RejectedFolder"
           DTS:CreationName="Microsoft.FileSystemTask"
           DTS:Description="File System Task"
+          DTS:Disabled="True"
           DTS:DTSID="{42C720B0-E0B7-49FC-9801-7BCA0974F9DB}"
           DTS:ExecutableType="Microsoft.FileSystemTask"
           DTS:LocaleID="-1"
